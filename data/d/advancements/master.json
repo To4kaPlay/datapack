@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald_block"
+    },
+    "title": "Мастер скупщик",
+    "description": "Купите у крестьян узор флага, бирку, пузырёк опыта и сверкающий ломтик арбуза",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "d:allst",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:name_tag"
+          ]
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:globe_banner_pattern"
+          ]
+        }
+      }
+    },
+    "3": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glistering_melon_slice"
+          ]
+        }
+      }
+    },
+    "requirement": {
+      "trigger": "minecraft:villager_trade",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:experience_bottle"
+          ]
+        }
+      }
+    }
+  }
+}

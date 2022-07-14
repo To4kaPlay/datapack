@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blaze_powder"
+    },
+    "title": "Адский гром",
+    "description": "Ударьте ифрита молнией",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "d:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "type": "minecraft:blaze"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 180
+  }
+}

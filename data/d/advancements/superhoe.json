@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_hoe"
+    },
+    "title": "Мотыга мультивселенной",
+    "description": "Зачаруйте деревянную мотыгу по максимуму"
+  },
+  "parent": "d:turtle",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_hoe"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:efficiency",
+                "levels": {
+                  "min": 5
+                }
+              },
+              {
+                "enchantment": "minecraft:silk_touch"
+              },
+              {
+                "enchantment": "minecraft:unbreaking",
+                "levels": {
+                  "min": 3
+                }
+              },
+              {
+                "enchantment": "minecraft:mending"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

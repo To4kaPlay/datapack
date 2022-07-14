@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:paper"
+    },
+    "title": "На нулях",
+    "description": "Достигните координат 0.5 0 0.5",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "d:24hours",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "position": {
+            "x": 0.5,
+            "y": 0,
+            "z": 0.5
+          },
+          "dimension": "minecraft:overworld"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:experience_bottle"
+    },
+    "title": "Долгий опыт обогащает ум",
+    "description": "Наберите 150 уровень",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "d:curse",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "player": {
+            "level": {
+              "min": 150
+            }
+          }
+        }
+      }
+    }
+  }
+}

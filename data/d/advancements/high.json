@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:firework_rocket"
+    },
+    "title": "Бесконечность - не предел",
+    "description": "Преодолейте высоту в 2000 блоков",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "d:allst",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "position": {
+            "y": {
+              "min": 2000
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 140
+  }
+}

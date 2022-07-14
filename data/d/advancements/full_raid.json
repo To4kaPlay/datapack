@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_axe"
+    },
+    "title": "Великий рейд",
+    "description": "Отбейте рейд 5 уровня",
+    "frame": "task"
+  },
+  "parent": "d:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:hero_of_the_village": {
+            "amplifier": {
+              "min": 4
+            }
+          }
+        }
+      }
+    }
+  }
+}

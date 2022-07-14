@@ -1,0 +1,163 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:map"
+    },
+    "title": "Урок картографии",
+    "description": "Посетите все структуры",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "d:root",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "buried_treasure"
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "desert_pyramid"
+        }
+      }
+    },
+    "3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "end_city"
+        }
+      }
+    },
+    "4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "jungle_pyramid"
+        }
+      }
+    },
+    "5": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "igloo"
+        }
+      }
+    },
+    "6": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "fortress"
+        }
+      }
+    },
+    "7": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "mansion"
+        }
+      }
+    },
+    "8": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "mineshaft"
+        }
+      }
+    },
+    "9": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "monument"
+        }
+      }
+    },
+    "10": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "nether_fossil"
+        }
+      }
+    },
+    "11": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "ocean_ruin_warm"
+        }
+      }
+    },
+    "12": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "pillager_outpost"
+        }
+      }
+    },
+    "13": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "ruined_portal"
+        }
+      }
+    },
+    "14": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "shipwreck"
+        }
+      }
+    },
+    "15": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "stronghold"
+        }
+      }
+    },
+    "16": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "swamp_hut"
+        }
+      }
+    },
+    "17": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "village_plains"
+        }
+      }
+    },
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "bastion_remnant"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

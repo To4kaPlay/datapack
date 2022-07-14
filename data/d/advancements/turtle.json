@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:turtle_helmet"
+    },
+    "title": "Прочный панцрь",
+    "description": "Сварите зелье черепашьей мощи",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "d:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:turtle_master"
+      }
+    }
+  }
+}

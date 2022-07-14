@@ -1,0 +1,184 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_pigstep"
+    },
+    "title": "Музыка для моих ушей",
+    "description": "Соберите все музыкальные пластинки",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "d:root",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_13"
+            ]
+          }
+        ]
+      }
+    },
+    "12": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_blocks"
+            ]
+          }
+        ]
+      }
+    },
+    "123": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_cat"
+            ]
+          }
+        ]
+      }
+    },
+    "1234": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_chirp"
+            ]
+          }
+        ]
+      }
+    },
+    "12345": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_far"
+            ]
+          }
+        ]
+      }
+    },
+    "123456": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_mall"
+            ]
+          }
+        ]
+      }
+    },
+    "1234567": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_mellohi"
+            ]
+          }
+        ]
+      }
+    },
+    "12345678": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_otherside"
+            ]
+          }
+        ]
+      }
+    },
+    "123456789": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_pigstep"
+            ]
+          }
+        ]
+      }
+    },
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_11"
+            ]
+          }
+        ]
+      }
+    },
+    "12345678910": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_stal"
+            ]
+          }
+        ]
+      }
+    },
+    "1234567891011": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_strad"
+            ]
+          }
+        ]
+      }
+    },
+    "123456789101112": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_wait"
+            ]
+          }
+        ]
+      }
+    },
+    "12345678910111213": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_ward"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

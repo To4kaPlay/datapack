@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_book"
+    },
+    "title": "Проклятый воин",
+    "description": "Получите незеритовый меч с проклятием утраты",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "d:superhoe",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_sword"
+            ],
+            "enchantments": [
+              {
+                "enchantment": "minecraft:vanishing_curse"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

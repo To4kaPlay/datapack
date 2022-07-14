@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_axe"
+    },
+    "title": "Легенда",
+    "description": "Отбейте рейд во всех измерениях",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "d:full_raid",
+  "criteria": {
+    "2": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {
+        "location": {
+          "dimension": "minecraft:the_end"
+        }
+      }
+    },
+    "requirement": {
+      "trigger": "minecraft:hero_of_the_village",
+      "conditions": {
+        "location": {
+          "dimension": "minecraft:overworld"
+        }
+      }
+    }
+  }
+}
